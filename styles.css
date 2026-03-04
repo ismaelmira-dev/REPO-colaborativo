@@ -1,0 +1,55 @@
+.contacto {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contacto h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.contacto p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #a12121;
+}
