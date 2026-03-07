@@ -1,4 +1,4 @@
-const form = document.getElementById("formularioo"); // error intencional (id incorrecto)
+const form = document.getElementById("formulario"); 
 
 form.addEventListener("submit", function(e){
     e.preventDefault();
